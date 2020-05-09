@@ -1,6 +1,5 @@
 *** Settings ***
 Library  SeleniumLibrary
-Library  SeleniumLibrary
 
 *** Variables ***
 ${SPINNER} =  class:busy-spinner-inner
