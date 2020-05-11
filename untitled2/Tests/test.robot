@@ -42,13 +42,6 @@ Select Orginization
     Sleep  10
     Switch Window  NEW
     Title Should Be  Fleet Management | Lexmark Cloud Services
-    #Click Element  ${ACCT-MENU}
-    #Set Selenium Implicit Wait  ${Long_Wait}
-    #Title Should Be  Fleet Management | Lexmark Cloud Services 2.3.0
-    #Wait Until Page Contains  ${ORG_SELECT}
-    #Set Focus To Element  ${ORG_SELECT}
-    #Click Element  ${ANALYTICS}
-
     Sleep  10
     Click Element  ${ORG_SELECT}
     #Press Keys	TAB
