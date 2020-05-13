@@ -1,6 +1,7 @@
 *** Settings ***
 Library  SeleniumLibrary
 Resource  Elements.robot
+Resource  Common.robot
 
 *** Keywords ***
 Browse to Lexmark Cloud Fleet Managment
