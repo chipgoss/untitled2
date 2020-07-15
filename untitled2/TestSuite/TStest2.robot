@@ -22,14 +22,14 @@ Open Fleet Managemnt Page
     #Wait Until Page Contains  ${SPINNER}
 
 Select Orginization
-    Sleep  10s
+    Sleep  8s
     Switch Window  NEW
     Title Should Be  Fleet Management | Lexmark Cloud Services
-    Sleep  10s
+    Sleep  8s
     Click Element  ${ORG_SELECT}
     #Press Keys	TAB
     Click Element  ${ORG_INPUT}
-    Sleep  10s
+    Sleep  8s
     input text  ${ORG_TYPE}  ${ORG}
     Press Keys	RETURN
     Close Browser
